@@ -128,7 +128,9 @@ The about section contains a quick about blurb that can be edited by changing th
 
 ### Experience Section
 
-The experience section creates a vertical timeline with all your relevant experience. The code for the timeline creation can be found within `js/scripts.js` and is an adaptation of [RyanFitzgerald/vertical-timeline](https://github.com/RyanFitzgerald/vertical-timeline).
+The experience section creates a vertical timeline with all your relevant experience. The code for the timeline creation can be found within `js/scripts.js` and is an adaptation of [RyanFitzgerald/vertical-timeline](https://github.com/RyanFitzgerald/vertical-timeline). 
+
+The experience section have Responsibilities Heading which is being populated with js from `js/list.js` and is being updated on the go if changed from `list.js` file.
 
 The default format is as follows:
 
@@ -137,9 +139,8 @@ The default format is as follows:
     <div data-date="September 2015 – September 2016">
         <h3>Employer Name</h3>
         <h4>Job Title</h4>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex.
-        </p>
+        <h3>Responsibilities & Duties</h3>
+        <ul id="employeer"></ul>
     </div>
 </div>
 ```
