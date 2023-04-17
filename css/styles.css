@@ -1,11 +1,8 @@
 /*!
     Title: Dev Portfolio Template
     Version: 1.2.2
-    Last Change: 03/25/2020
-    Author: Ryan Fitzgerald
-    Repo: https://github.com/RyanFitzgerald/devportfolio-template
-    Issues: https://github.com/RyanFitzgerald/devportfolio-template/issues
-
+    Last Change: 04/18/2023
+  
     Description: This file contains all the styles associated with the page
     that don't come from third party libraries. This file gets compiled using
     Gulp and send to the /css folder which is then loaded on the page.
@@ -368,10 +365,11 @@ footer {
     color: #74808a;
     margin: 0
 }
+
 #about ul {
     color: #74808a !important;
     margin: 0;
-  }
+}
 
 #experience {
     padding: 50px 15px;
@@ -874,4 +872,15 @@ footer {
         font-size: 0.9em;
         padding: 5px 10px
     }
+}
+
+.description-section {
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+.description-shadow {
+    box-shadow: -11px 3px 22px -2px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: -11px 3px 22px -2px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: -11px 3px 22px -2px rgba(0, 0, 0, 0.6);
 }
